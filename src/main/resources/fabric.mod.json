@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "aura",
+  "version": "${version}",
+  "name": "Aura",
+  "description": "A clean client-side quality-of-life foundation for Fabric.",
+  "authors": [
+    "Aura Contributors"
+  ],
+  "contact": {
+    "sources": "https://github.com/your-name/aura"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.aura.client.AuraClient"
+    ]
+  },
+  "mixins": [
+    "aura.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
